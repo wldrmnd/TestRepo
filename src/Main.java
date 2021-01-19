@@ -1,5 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("git start");
+
+        String defaultArray = "<<<<>>--><--<<--<<>>>--><<<<<";
+
+        ArrayService stringService = new ArrayService();
+
+        System.out.println(stringService.countAllArrays(defaultArray));
     }
 }
